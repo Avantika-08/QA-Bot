@@ -1,2 +1,22 @@
-venv
+# Ignore virtual environment folder
+venv/
+
+# Ignore environment variables file
 .env
+
+# Ignore compiled python files
+*.pyc
+
+# Ignore cache and temporary files
+__pycache__/
+*.log
+
+# Ignore Word documents (like the report)
+Report.docx
+
+# Ignore IDE/project-specific files
+*.vscode/
+*.idea/
+
+# Ignore template folder if it contains generated or non-essential files
+htmlTemplates/
